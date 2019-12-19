@@ -973,7 +973,7 @@ a,
 }
 .section .title-area .description {
   font-size: 16px;
-  color: #777777;
+  color: #b68326;
 }
 .section [class*="col-"] .title-area {
   padding: 0;
@@ -1335,7 +1335,7 @@ a,
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .navbar-default .navbar-nav > li > a:not(.btn) {
-  color: #434547;
+  color: #b68326;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:not(.btn):hover,
@@ -1344,7 +1344,7 @@ a,
 .navbar-default .navbar-nav > li > a:not(.btn):focus {
   background-color: transparent;
   border-radius: 3px;
-  color: #434547;
+  color: #d49a2e;
   opacity: 0.85;
   filter: alpha(opacity=85);
 }
