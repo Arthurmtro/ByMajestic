@@ -7,6 +7,11 @@ body {
   background: #130c05;
 }
 
-#presentation {
-  background: #130c05;
+.section-tarifs h3 {
+  font-size: 4em;
+}
+
+.card-title {
+  color: #333;
+  font-size: 2.5em;
 }
