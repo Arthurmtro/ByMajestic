@@ -932,9 +932,9 @@ a,
 }
 
 .section {
-  padding: 50px 0;
+  padding-top: 35px;
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #130c05;
 }
 
 .section-gray {
@@ -1863,10 +1863,10 @@ a,
 }
 
 .card {
-  background: #fff;
+  background: #130c05;
   box-shadow: 0 32px 44px -24px rgba(0, 0, 0, 0.23), 0 20px 25px 0px rgba(0, 0, 0, 0.12), 0 15px 10px -10px rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  margin-bottom: 30px;
+  border-radius: 25px;
+  margin-bottom: 15px;
   -webkit-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
   -moz-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
   -o-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
@@ -1917,7 +1917,7 @@ a,
   margin-top: 15px;
 }
 .card > img {
-  border-radius: 4px;
+  border-radius: 5px;
 }
 .card .title {
   margin-bottom: 5px;
@@ -2456,12 +2456,12 @@ a,
 
 .section-get-started,
 .section-header-freebie,
-.section-our-team-freebie {
+.section-tarifs {
   padding-bottom: 0;
 }
 .section-get-started .container,
 .section-header-freebie .container,
-.section-our-team-freebie .container {
+.section-tarifs .container {
   position: relative;
   z-index: 100;
   display: block;
@@ -2470,42 +2470,42 @@ a,
 }
 .section-get-started .title-header,
 .section-header-freebie .title-header,
-.section-our-team-freebie .title-header {
+.section-tarifs .title-header {
   text-transform: none;
 }
 .section-get-started .button-contact,
 .section-header-freebie .button-contact,
-.section-our-team-freebie .button-contact {
+.section-tarifs .button-contact {
   padding: 25px 0 17px;
 }
 .section-get-started .text-description,
 .section-header-freebie .text-description,
-.section-our-team-freebie .text-description {
+.section-tarifs .text-description {
   color: #fff;
   margin: 40px auto;
   max-width: 760px;
 }
 .section-get-started .text-white,
 .section-header-freebie .text-white,
-.section-our-team-freebie .text-white {
+.section-tarifs .text-white {
   color: #fff;
 }
 .section-get-started .text-gold,
 .section-header-freebie .text-gold,
-.section-our-team-freebie .text-gold {
+.section-tarifs .text-gold {
   color: #c5a47e;
 }
 .section-get-started .parallax,
 .section-get-started .static-image,
 .section-header-freebie .parallax,
 .section-header-freebie .static-image,
-.section-our-team-freebie .parallax,
-.section-our-team-freebie .static-image {
+.section-tarifs .parallax,
+.section-tarifs .static-image {
   height: auto;
 }
 .section-get-started .image,
 .section-header-freebie .image,
-.section-our-team-freebie .image {
+.section-tarifs .image {
   height: 100%;
 }
 
@@ -2575,7 +2575,7 @@ a,
   padding: 0;
 }
 
-.section-our-team-freebie .container {
+.section-tarifs .container {
   margin-top: 14vh;
   margin-bottom: 50px;
 }
