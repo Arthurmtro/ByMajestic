@@ -11,6 +11,11 @@ h2 {
   text-transform: uppercase;
 }
 
+.btn-block {
+  padding: 2em;
+  border-radius: 50px;
+}
+
 .coiffure {
   width: 100%;
   padding: 0 0px;
