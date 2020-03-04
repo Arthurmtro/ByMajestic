@@ -79,3 +79,71 @@ h2 {
 #containerTarifs {
   margin-top: 35px;
 }
+
+.text-primary {
+  background: -webkit-linear-gradient(#f0cc57, #eea022);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+  border-radius: 15px;
+  color: white;
+  background-color: #2c1c0b;
+  opacity: 1;
+}
+.btn, .navbar .navbar-nav > li > a.btn {
+  border-width: 1px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.6em;
+  padding: 10px 20px;
+  border-color: #1d1308;
+  text-transform: uppercase;
+}
+p, label, .btn, .form-control, .title h5, .navbar, .brand, .btn-simple, a, .td-name, td, small, .media h5, .subtitle {
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* navbar */
+
+.navbar-default .navbar-nav > li > a:not(.btn) {
+  background: -webkit-linear-gradient(#f0cc57, #eea022);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar .navbar-nav.navbar-uppercase > li > a {
+  font-size: 0.9em;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.navbar .navbar-nav > li > a {
+  padding: 10px 15px;
+  margin: 15px 3px;
+  line-height: 18px;
+}
+.navbar-default .navbar-nav > li > a {
+}
+
+@media (min-width: 768px)
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+a {
+    color: #777777;
+    opacity: .7;
+    font-size: 14px;
+}
+
