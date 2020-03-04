@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>ByMajestic</title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/css/bootstrap.css" rel="stylesheet"/>
   <link href="assets/css/style.css" rel="stylesheet"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style_main.css">
@@ -15,8 +15,8 @@
 
   <!-- HEADER -->
 
+<!--
   <nav class="navbar navbar-default navbar-transparent navbar-fixed-top " color-on-scroll="200">
-    <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -46,6 +46,40 @@
             </div>
         </div>
   </nav>
+-->
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <img src="assets/img/logo.png" class="navbar-brand" alt="">
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
   <!-- HEADER-->
 
@@ -57,9 +91,10 @@
       <div class="container">
         <div class="content">
           <div class="title-area">
-            <h1 class=" text-primary">ByMajestic</h1>
+            <h1 class="title-modern text-primary">ByMajestic</h1>
             <h3 class="text-primary">Votre Coiffeur sur Cholet</h3>
-            <button type="button" class="btn btn-primary btn-sm">Prendre rendez-vous</button>
+            <h3>3 Rue de la Baie d'Hudson, 49300 Cholet</h3>
+            <button type="button" class="btn btn-primary btn-lg">Prendre rendez-vous</button>
           </div>
         </div>
       </div>
@@ -116,7 +151,7 @@
             </div>
           </div>
           <div class="col-xs-12">
-            <div class="card" id="largeCard">
+            <div class="card" id="imgOthers" id="largeCard">
               <div class="card-body">
                 <h5 class="card-title">Soins & Visage</h5>
               </div>
@@ -157,42 +192,44 @@
         </div>       
       </div>
       <div id="salon" class="title-area">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
           <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
           </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
               <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F545172635987964%2Fphotos%2Fa.746177479220811%2F745512405953985%2F%3Ftype%3D3&width=625&show_text=false&height=351&appId" width="625" height="351" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+              <div class="carousel-caption">
+              </div>
             </div>
-            <div class="carousel-item">
-              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F545172635987964%2Fphotos%2Fa.746177479220811%2F745509965954229%2F%3Ftype%3D3&width=625&show_text=false&height=351&appId" width="625" height="351" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            <div class="item">
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F545172635987964%2Fphotos%2Fa.746177479220811%2F745512405953985%2F%3Ftype%3D3&width=625&show_text=false&height=351&appId" width="625" height="351" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+              <div class="carousel-caption">
+              </div>
             </div>
-            <div class="carousel-item">
+            <div class="item">
               <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F545172635987964%2Fphotos%2Fa.746177479220811%2F745513579287201%2F%3Ftype%3D3&width=625&show_text=false&height=351&appId" width="625" height="351" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+              <div class="carousel-caption">
+              </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Précedent</span>
+        
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
-      </div>
-      <div id="vidéo" class="title-area">
-        <video controls width="100%">
-          <source src="assets/img/presentation.mp4" type="video/mp4">
-          Désoler, votre moteur de recherche ne supporte pas ce type de vidéo.
-        </video>
-      </div>
-    </div>
-  </div>
-
 
   <!-- CONTACT PART -->
 
