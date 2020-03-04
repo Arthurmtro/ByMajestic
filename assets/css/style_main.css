@@ -33,6 +33,7 @@ h2 {
 }
 
 .btn-primary {
+  border-radius: 15px;
   color: white;
   background-color: #2c1c0b;
   opacity: 1;
@@ -42,16 +43,33 @@ h2 {
   background-color: #130c05;
 }
 
-#presHorraires {
+.card {
+  margin: auto;
+  width: 60%;
+}
+
+#largeCard {
+  width: 40%;
+}
+
+@media (max-width: 992px) {
+  .card {
+    margin: auto;
+    width: 100%;
+  }
+
+  #largeCard {
+    width: 80%;
+  }
+}
+
+#preshoraires {
+  padding-top: 6px;
   border: 1px solid  white 
 }
 
 #salon {
   margin-top: 25px;
-}
-
-#imgOthers{
-  margin: 0 20%;
 }
 
 #containerTarifs {
