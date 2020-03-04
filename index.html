@@ -15,39 +15,6 @@
 
   <!-- HEADER -->
 
-<!--
-  <nav class="navbar navbar-default navbar-transparent navbar-fixed-top " color-on-scroll="200">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-                  <img src="assets/img/logo.png" class="navbar-brand" alt="">
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right navbar-uppercase">
-                  <li>
-                      <a href="#presentation">Salon</a>
-                  </li>
-                  <li>
-                      <a href="#tarifs">Tarifs</a>
-                  </li>
-                  <li>
-                      <a href="#galerie">Galerie</a>
-                  </li>
-                  </li>
-                  <li>
-                      <a href="#contact">Contacter</a>
-                  </li>
-                </ul>
-            </div>
-        </div>
-  </nav>
--->
-
   <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -59,20 +26,18 @@
           </button>
         <img src="assets/img/logo.png" class="navbar-brand" alt="">
       </div>
-  
-      <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="#presentation">Salon</a>
+            <a href="#">Salon</a>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tarifs <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Tarifs Femme</a></li>
-              <li><a href="#">Tarifs Hommes</a></li>
+              <li><a href="/girls.html">Tarifs Femme</a></li>
+              <li><a href="/boys.html">Tarifs Hommes</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="#">Forfaits Soins & visages</a></li>            </ul>
+              <li><a href="/galerie.html">Forfaits Soins & visages</a></li>            </ul>
           </li>
           <li>
               <a href="#galerie">Galerie</a>
@@ -98,14 +63,17 @@
           <div class="title-area">
             <h1 class="title-modern text-primary">ByMajestic</h1>
             <h3 class="text-primary">Votre Coiffeur sur Cholet</h3>
-            <h3>3 Rue de la Baie d'Hudson, 49300 Cholet</h3>
-            <button type="button" class="btn btn-primary btn-lg">Prendre rendez-vous</button>
+            <h3>3 Rue de la Baie d'Hudson, 49300 Cholet</h3>            
+            <a href="tel:0241280231">
+              <button typ e="button" class="btn btn-primary btn-lg btn-block">Prendre rendez-vous</button>
+            </a>          
           </div>
         </div>
       </div>
     </div>
   </div>
   
+
   <!-- PRESENTATION-->
 
   <div class="section" id="presentation">
@@ -128,6 +96,7 @@
     </div>
   </div>
   
+
   <!-- TARIFS -->
 
   <div class="section section-tarifs" id="tarifs">
@@ -139,29 +108,35 @@
           <h2 class="text-primary">-- Tarifs --</h2>
           <div class="row">
             <div class="col-xs-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Femme</h5>
+              <a href="/girls.html">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Femme</h5>
+                  </div>
+                  <img class="card-img-bottom" src="assets/img/imgTarifs1.jpg" alt="Card image cap">
                 </div>
-                <img class="card-img-bottom" src="assets/img/imgTarifs1.jpg" alt="Card image cap">
-              </div>
+              </a>
             </div>
             <div class="col-xs-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Hommes</h5>
+              <a href="/boys.html">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Hommes</h5>
+                  </div>
+                  <img class="card-img-bottom" src="assets/img/imgTarifs2.jpg" alt="Card image cap">
                 </div>
-                <img class="card-img-bottom" src="assets/img/imgTarifs2.jpg" alt="Card image cap">
-              </div>
+              </a>
             </div>
           </div>
           <div class="col-xs-12">
-            <div class="card" id="imgOthers" id="largeCard">
-              <div class="card-body">
-                <h5 class="card-title">Soins & Visage</h5>
+            <a href="#">
+              <div class="card" id="largeCard">
+                <div class="card-body">
+                  <h5 class="card-title">Soins & Visage</h5>
+                </div>
+                <img class="card-img-bottom" src="assets/img/imgTarifs3.jpg" alt="Card image cap">
               </div>
-              <img class="card-img-bottom" src="assets/img/imgTarifs3.jpg" alt="Card image cap">
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -180,61 +155,25 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-4 col-md-2"><img src="assets/img/coiffureImg7.jpg" alt="Coiffure mariage" class="coiffure"></div>
-            <div class="d-none col-md-2 d-md-block"><img src="assets/img/coiffureImg5.jpg" alt="Coiffure femme" class="coiffure"></div>
+            <div class="hidden-xs hidden-sm col-md-2"><img src="assets/img/coiffureImg5.jpg" alt="Coiffure femme" class="coiffure"></div>
             <div class="col-xs-4 col-md-2"><img src="assets/img/coiffureImg3.jpg" alt="Coiffure homme" class="coiffure"></div>
-            <div class="d-none col-md-2 d-md-block"><img src="assets/img/coiffureImg8.jpg" alt="Barbier homme" class="coiffure"></div>
+            <div class="hidden-xs hidden-sm col-md-2"><img src="assets/img/coiffureImg8.jpg" alt="Barbier homme" class="coiffure"></div>
             <div class="col-xs-4 col-md-2"><img src="assets/img/coiffureImg4.jpg" alt="Coiffure femme" class="coiffure"></div>
-            <div class="d-none col-md-2 d-md-block"><img src="assets/img/coiffureImg6.jpg" alt="Coiffure homme" class="coiffure"></div>
+            <div class="hidden-xs hidden-sm col-md-2"><img src="assets/img/coiffureImg6.jpg" alt="Coiffure homme" class="coiffure"></div>
           </div>   
           <div class="row">
             <div class="col-xs-2"><img src="" alt="" class=""></div>
-            <div class="d-none col-md-2 d-md-block"><img src="assets/img/coiffureImg10.jpg" alt="Coiffure femme" class="coiffure"></div>
+            <div class="hidden-xs hidden-sm col-md-2"><img src="assets/img/coiffureImg10.jpg" alt="Coiffure femme" class="coiffure"></div>
             <div class="col-xs-4 col-md-2"><img src="assets/img/coiffureImg1.jpg" alt="Coiffure mariage" class="coiffure"></div>
-            <div class="d-none col-md-2 d-md-block"><img src="assets/img/coiffureImg9.jpg" alt="Coiffure mariage" class="coiffure"></div>
+            <div class="hidden-xs hidden-sm col-md-2"><img src="assets/img/coiffureImg9.jpg" alt="Coiffure mariage" class="coiffure"></div>
             <div class="col-xs-4 col-md-2"><img src="assets/img/coiffureImg2.jpg" alt="Coiffure homme" class="coiffure"></div>
-            <div class="col-xs-2"><img src="" alt="" class=""></div>
-          </div>   
-        </div>       
+            <div class="hidden-xs hidden-sm col-xs-2"><img src="" alt="" class=""></div>
+          </div>        
+        </div>    
+        <a class="text-primary" id="plus" href="/galerie.html">Voir plus</a>   
       </div>
-      <div id="salon" class="title-area">
-        
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-        
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F545172635987964%2Fphotos%2Fa.746177479220811%2F745512405953985%2F%3Ftype%3D3&width=625&show_text=false&height=351&appId" width="625" height="351" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-              <div class="carousel-caption">
-              </div>
-            </div>
-            <div class="item">
-              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F545172635987964%2Fphotos%2Fa.746177479220811%2F745512405953985%2F%3Ftype%3D3&width=625&show_text=false&height=351&appId" width="625" height="351" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-              <div class="carousel-caption">
-              </div>
-            </div>
-            <div class="item">
-              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F545172635987964%2Fphotos%2Fa.746177479220811%2F745513579287201%2F%3Ftype%3D3&width=625&show_text=false&height=351&appId" width="625" height="351" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-              <div class="carousel-caption">
-              </div>
-            </div>
-          </div>
-        
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+    </div>
+    
 
   <!-- CONTACT PART -->
 
@@ -320,7 +259,7 @@
         </div>
         <hr>
         <div class="copyright">
-             © <script> document.write(new Date().getFullYear()) </script> Arthur Monteiro, simplement
+          <p>© <script> document.write(new Date().getFullYear()) </script> <a href="https://arthurmtro.netlify.com">Arthur Monteiro</a> , simplement </p>
         </div>
     </div>
 </footer>
