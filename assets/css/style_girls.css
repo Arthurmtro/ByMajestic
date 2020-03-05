@@ -4,42 +4,35 @@ html {
 
 body {
   font-family: 'Vibes', cursive;
-  background: black;
+  background-color: #130c05;
 }
 
 h1 {
   font-size: 35px;
   letter-spacing: 2px;
-  padding-top: 10px;
-  margin: 50px auto;
+  padding: 10px;
+  margin: 100px auto;
   text-align: center;
-  color: white;
+  color: var(--main-bg-color);
   border-top: 1px solid white;
   border-bottom: 1px solid white;
-  width: 150px;
+  width: 10em;
+  background: -webkit-linear-gradient(#f0cc57, #eea022);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
   font-size: 35px;
   padding-top: 10px;
-  color: white;
   letter-spacing: 2px;
-  color: #B49614;
-}
-
-h4 {
-  font-size: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
+  background: -webkit-linear-gradient(#f0cc57, #eea022);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 span {
   font-weight: 700;
-}
-
-
-a {
-  width: 25px;
 }
 
 .col-md-4 #img {
@@ -65,15 +58,7 @@ a {
 
 .col-md-6, .col-md-3, .col-md-4 {
   height: 100%;
-}
-
-.INFOsup {
-  padding-top: 20px;
-  padding-left: 20px;
-  font-weight: 200;
-  font-size: 0.5em;
-  color: #B49614;
-
+  margin: 12px 0;
 }
 
 .image{
@@ -84,7 +69,7 @@ a {
 .INFO {
   padding-top: 10px;
   float: left;
-  color: #B49614;
+  color: white;
   clear: left;
 }
 
@@ -98,48 +83,10 @@ a {
   padding-right: 28px;
   float: right;
   color: white;
-  color: #B49614;
 }
 
 .TARIFS {
   background: black;
-  font-family: 'Big Shoulders Text', cursive;
   text-transform: uppercase;
   padding: 20px 0px 50px 0px;
-}
-
-.CONTACT {
-  padding-top: 10px;
-  background: #f5e4d0;
-  font-family: 'Raleway', sans-serif;
-}
-
-.CONTACT p {
-  padding-left: 15px;
-  font-size: 15px;
-  font-weight: 700;
-}
-
-hr.style-two {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-hr.style-eight {
-    overflow: visible; /* For IE */
-    padding: 0;
-    border: none;
-    border-top: medium double #CCC6B3;
-    color: #CCC6B3;
-    text-align: center;
-}
-hr.style-eight:after {
-    content: "§";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: #9A8B5E;
 }
