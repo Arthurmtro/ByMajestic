@@ -609,7 +609,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 @media (max-width: 768px) {
   .imgText {
-    font-size: 1.3em;
+    font-size: 0.7em;
   }
   h1 {
     font-size: 2em;
