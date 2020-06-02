@@ -1,3 +1,129 @@
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 html {
   font-size: 14px;
   -ms-text-size-adjust: 100%;
@@ -107,7 +233,6 @@ label,
 .btn,
 .form-control,
 .title h5,
-.,
 .brand,
 .btn-simple,
 a,
@@ -127,18 +252,28 @@ a:hover {
   opacity: 1;
 }
 
+.imgText {
+  font-size: 1.6em;
+  font-weight: bold;
+  white-space: nowrap;
+  color: black;
+  margin: 0;
+  margin-top: 15px;
+  text-align: center;
+}
+
 .title {
   text-align: center;
   margin-bottom: 50px;
 }
 .text-primary {
   background: -webkit-linear-gradient(#e2c460 40%, #eea022);
-  -webkit-background-clip: text;x
+  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 p.description {
-  font-size: 16px;
-  color: #777777;
+  color: rgb(34, 33, 33);
 }
 
 a:hover, a:focus {
@@ -229,7 +364,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .section {
   padding-top: 35px;
   position: relative;
-  background-color: #130c05;
+  background-color: #e4cfba;
 }
 
 .section {
@@ -244,7 +379,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .section .title-area .description {
   font-size: 16px;
-  color: #b68326;
+  color: #141313;
 }
 .section [class*="col-"] .title-area {
   padding: 0;
@@ -392,7 +527,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   position: relative;
   color: white;
   text-align: center;
-  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
   vertical-align: center;
   line-height: 1.7;
   position: relative;
@@ -404,7 +538,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .section-header h1{
   font-weight: 600;
   font-size: 4em;
-  text-shadow: -0.5px 0.5px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);
 }
 /* HOME PAGE */
 .section .image {
@@ -475,6 +608,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   }
 }
 @media (max-width: 768px) {
+  .imgText {
+    font-size: 1.3em;
+  }
   h1 {
     font-size: 2em;
     line-height: 1.25;

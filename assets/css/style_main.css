@@ -17,10 +17,12 @@ h2 {
 }
 
 .coiffure {
+  max-height: 305px;
   width: 100%;
+  max-width: 305px;
   padding: 0 0px;
   border-radius: 5px;
-  border: 1px solid rgb(182, 131, 38);
+  border: 1px solid rgba(182, 132, 38, 0.788);
 }
 
 .section-tarifs h3 {
@@ -28,7 +30,7 @@ h2 {
 }
 
 .card-title {
-  color: #333;
+  color: rgb(231, 228, 228);
   font-size: 2.5em;
 }
 
@@ -77,7 +79,9 @@ h2 {
 
 #preshoraires {
   padding-top: 6px;
-  border: 1px solid  white 
+  background-color: #130c0510;
+  border: 1px solid  rgb(32, 29, 29) ;
+  border-radius: 15px;
 }
 
 #salon {
@@ -89,7 +93,8 @@ h2 {
 }
 
 .text-primary {
-  background: -webkit-linear-gradient(#f0cc57, #eea022);
+  background: -webkit-linear-gradient(#c5a743, #cc8108);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -105,7 +110,7 @@ h2 {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.6em;
-  padding: 10px 20px;
+  padding: 15px 0;
   border-color: #1d1308;
   text-transform: uppercase;
 }
@@ -117,6 +122,7 @@ p, label, .btn, .form-control, .title h5, .navbar, .brand, .btn-simple, a, .td-n
 
 .navbar-default .navbar-nav > li > a:not(.btn) {
   background: -webkit-linear-gradient(#f0cc57, #eea022);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -153,7 +159,7 @@ p, label, .btn, .form-control, .title h5, .navbar, .brand, .btn-simple, a, .td-n
 }
 a {
     color: #777777;
-    opacity: .7;
+    opacity: .98;
     font-size: 1.3em;
     transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
 }
