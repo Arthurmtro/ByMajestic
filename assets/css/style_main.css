@@ -17,12 +17,10 @@ h2 {
 }
 
 .coiffure {
-  max-height: 305px;
   width: 100%;
   max-width: 305px;
-  padding: 0 0px;
   border-radius: 5px;
-  border: 1px solid rgba(182, 132, 38, 0.788);
+  border: 1.5px solid rgba(182, 132, 38, 0.788);
 }
 
 .section-tarifs h3 {

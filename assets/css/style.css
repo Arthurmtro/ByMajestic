@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 .row > .column {
   padding: 0 8px;
 }
@@ -255,8 +259,8 @@ a:hover {
 .imgText {
   font-size: 1.6em;
   font-weight: bold;
-  white-space: nowrap;
   color: black;
+  padding: 15px;
   margin: 0;
   margin-top: 15px;
   text-align: center;
@@ -372,7 +376,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .section .title-area {
   max-width: 760px;
-  margin: 0 auto 70px;
+  margin: 0 auto 35px;
   display: block;
   padding: 0 15px;
   text-align: center;
@@ -609,7 +613,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 @media (max-width: 768px) {
   .imgText {
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
   h1 {
     font-size: 2em;

@@ -43,7 +43,6 @@ captionText.innerHTML = dots[slideIndex-1].alt;
 
 
 
-
 // Animation of navbar
 
 var transparent = true;
