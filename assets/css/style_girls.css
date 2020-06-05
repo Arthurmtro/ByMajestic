@@ -19,6 +19,7 @@ h1 {
   width: 10em;
   background: -webkit-linear-gradient(#f0cc57, #eea022);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -27,6 +28,7 @@ h2 {
   padding-top: 10px;
   letter-spacing: 2px;
   background: -webkit-linear-gradient(#f0cc57, #eea022);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

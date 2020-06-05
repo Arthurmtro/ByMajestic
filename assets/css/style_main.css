@@ -157,11 +157,11 @@ p, label, .btn, .form-control, .title h5, .navbar, .brand, .btn-simple, a, .td-n
     text-decoration: underline #eea022;
   }
 }
-a {
-    color: #777777;
-    opacity: .98;
-    font-size: 1.3em;
-    transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
+a {font-weight: bold;
+  color: #777777;
+  opacity: .98;
+  font-size: 1.4em;
+  transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
 }
 .row > div {
   transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);

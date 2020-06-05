@@ -1,3 +1,7 @@
+.gender {
+  height: 30vh;
+}
+
 .hidden {
   display: none;
 }
@@ -430,7 +434,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   z-index: 3;
   content: "";
   opacity: .7;
-  background: rgb(27, 27, 27);
+  background: rgba(27, 27, 27, 0.555);
 }
 .filter .title-area .description {
   color: #FFFFFF;
