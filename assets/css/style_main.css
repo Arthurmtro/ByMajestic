@@ -11,6 +11,11 @@ h2 {
   text-transform: uppercase;
 }
 
+.longueur { 
+  font-size: 0.85em;
+  padding: 0;
+}
+
 .btn-block {
   padding: 2em;
   border-radius: 50px;
