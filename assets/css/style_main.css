@@ -11,6 +11,10 @@ h2 {
   text-transform: uppercase;
 }
 
+.copyrightText {
+  font-size: 1em;
+}
+
 .longueur { 
   font-size: 0.85em;
   padding: 0;
