@@ -119,9 +119,10 @@ h2 {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.6em;
-  padding: 15px 0;
+  padding: 10px 45px;
   border-color: #1d1308;
   text-transform: uppercase;
+  margin: 0;
 }
 p, label, .btn, .form-control, .title h5, .navbar, .brand, .btn-simple, a, .td-name, td, small, .media h5, .subtitle {
   font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
